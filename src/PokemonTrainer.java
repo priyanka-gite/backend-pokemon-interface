@@ -4,8 +4,9 @@ public class PokemonTrainer {
     String name;
     List<Pokemon> pokemons;
 
-    PokemonTrainer (String name) {
+    PokemonTrainer (String name, List<Pokemon> pokemons ) {
         this.name =  name;
+        this. pokemons = pokemons;
     }
     public String getName(){
         return name;
